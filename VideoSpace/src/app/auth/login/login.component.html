@@ -1,0 +1,52 @@
+<div
+  class="container d-flex justify-content-center align-items-center"
+  style="min-height: 100vh"
+>
+  <div class="card p-5 shadow-lg gradient-card">
+    <h1 class="text-center mb-4">Login</h1>
+    <form [formGroup]="loginForm">
+      <div class="mb-3">
+        <input
+          type="email"
+          formControlName="email"
+          placeholder="Email"
+          class="form-control"
+        />
+        <div *ngIf="email?.invalid && email?.touched" class="text-danger small">
+          <span *ngIf="email?.errors?.['required']"
+            >Inserisci la tua email.</span
+          >
+          <span *ngIf="email?.errors?.['email']"
+            >Inserisci una email valida.</span
+          >
+        </div>
+      </div>
+      <div class="mb-4">
+        <input
+          type="password"
+          formControlName="password"
+          placeholder="Password"
+          class="form-control"
+        />
+        <div
+          *ngIf="password?.invalid && password?.touched"
+          class="text-danger small"
+        >
+          <span *ngIf="password?.errors?.['required']"
+            >Inserisci la tua password.</span
+          >
+          <span *ngIf="password?.errors?.['minlength']">
+            La password deve avere almeno 8 caratteri.
+          </span>
+        </div>
+      </div>
+      <button
+        (click)="login()"
+        class="btn btn-primary btn-block w-100"
+        (click)="loginAccess()"
+      >
+        Entra nel nostro mondo
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div
+  class="container d-flex flex-column align-items-center"
+  style="min-height: 100vh"
+>
+  <h1 class="page-title text-center mb-5">Elenco Utenti</h1>
+  <div class="table-responsive w-100">
+    <table class="table table-hover text-center gradient-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.nome }}</td>
+          <td>{{ user.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

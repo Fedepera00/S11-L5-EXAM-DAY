@@ -1,0 +1,28 @@
+<div class="container home-container">
+  <h1 class="text-center my-5">I tuoi Film Preferiti</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+    <div *ngFor="let movie of favoriteMovies" class="col">
+      <div class="card movie-card h-100 shadow-lg">
+        <img
+          [src]="movie.coverImage"
+          class="card-img-top img-fluid movie-img"
+          alt="{{ movie.title }}"
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <p class="card-text">Regista: {{ movie.director }}</p>
+          <p class="card-text">Anno: {{ movie.year }}</p>
+          <p class="card-text">Genere: {{ movie.genre }}</p>
+        </div>
+        <div class="card-footer text-center">
+          <button
+            (click)="removeFromFavorites(movie)"
+            class="btn btn-outline-danger movie-btn"
+          >
+            Rimuovi dai Preferiti
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

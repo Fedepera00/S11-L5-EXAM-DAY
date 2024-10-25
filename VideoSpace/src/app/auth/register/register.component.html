@@ -1,0 +1,34 @@
+<div
+  class="container d-flex justify-content-center align-items-center"
+  style="min-height: 100vh"
+>
+  <div class="card p-5 shadow-lg gradient-card">
+    <h1 class="text-center mb-4">Registrati</h1>
+    <form>
+      <input
+        type="text"
+        name="nome"
+        [(ngModel)]="newUser.nome"
+        placeholder="Inserisci qui il tuo nome"
+        class="form-control mb-3"
+      />
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="newUser.email"
+        placeholder="Email"
+        class="form-control mb-3"
+      />
+      <input
+        type="password"
+        name="password"
+        [(ngModel)]="newUser.password"
+        placeholder="Password"
+        class="form-control mb-4"
+      />
+      <button (click)="register()" class="btn btn-primary btn-block w-100">
+        Registrati
+      </button>
+    </form>
+  </div>
+</div>

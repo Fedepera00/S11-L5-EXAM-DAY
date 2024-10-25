@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" routerLink="/">VIDEOSPACE</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="isCollapsed = !isCollapsed"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="!isCollapsed"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      [ngClass]="{ show: !isCollapsed }"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li *ngIf="!isLoggedIn" class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/login"
+            >Login</a
+          >
+        </li>
+        <li *ngIf="!isLoggedIn" class="nav-item">
+          <a class="nav-link" routerLink="/register">Registrati</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li *ngIf="isLoggedIn" class="nav-item">
+          <a class="nav-link" routerLink="/home">Home</a>
+        </li>
+        <li *ngIf="isLoggedIn" class="nav-item">
+          <a class="nav-link" routerLink="/favorite">Favoriti</a>
+        </li>
+        <li *ngIf="isLoggedIn" class="nav-item">
+          <a class="nav-link" routerLink="/userList">Utenti</a>
+        </li>
+        <li *ngIf="isLoggedIn" class="nav-item">
+          <button (click)="logout()" class="nav-link">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

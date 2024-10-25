@@ -1,0 +1,34 @@
+.footer-separator {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: -2px;
+}
+
+.gradient-footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
+  color: #ffffff;
+  &:hover {
+    color: #bbdefb;
+    text-decoration: underline;
+  }
+}
+
+.footer h5,
+.footer h6 {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.footer .bi {
+  font-size: 1.5rem;
+}
+
+.footer p,
+.footer a {
+  font-family: "Century Gothic", sans-serif;
+}

@@ -1,0 +1,69 @@
+.home-container {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 50px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.movie-card {
+  border: none;
+  background-color: #f7f7f7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.movie-img {
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 3px solid #007bff;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.card-text {
+  color: #333;
+  font-size: 1rem;
+}
+
+.movie-btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.movie-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+  padding-top: 10px;
+}

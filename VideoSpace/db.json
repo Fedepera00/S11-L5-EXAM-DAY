@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "email": "team4@gmail.com",
+      "password": "$2a$10$0pleVTElynfhIaFivU3ouO/NjCQcwdeDr/e4zARCw0Cy2YdX4uPSG",
+      "nome": "Pippo",
+      "id": 1
+    },
+    {
+      "email": "capitanmike@gmail.com",
+      "password": "$2a$10$vpUqbn48hoPGbqcX8KVqB.6wPx8vThbpoE72np19rz2KEfkJhE2m.",
+      "nome": "Michele Arcangelo Tedesco",
+      "id": 2
+    },
+    {
+      "email": "capitansparrow@caraibi.com",
+      "password": "$2a$10$fEMv/0o0tZW19d4K02/f7O630oDOyO38vflJHiSW0DINK6xGpPxqS",
+      "nome": "Jack Sparrow",
+      "id": 3
+    },
+    {
+      "email": "barbanera@caraibi.com",
+      "password": "$2a$10$Db.Xvyes6DSRp1nNpXoDE.IqmUm9myQ85GKMRVs8TzyIYc0/RvwTm",
+      "nome": "Edward Teach",
+      "id": 4
+    },
+    {
+      "email": "salazar@caraibi.com",
+      "password": "$2a$10$s49wxHEtSyASaAUkvlzo8uh/EhCBcZ.OI4wlfghWEdvvm7SALaOs6",
+      "nome": "Armando Salazar",
+      "id": 5
+    },
+    {
+      "email": "turner@caraibi.com",
+      "password": "$2a$10$fVQzpQnrhsgXmf0ZMsUfPeJU2t.ODKkscV5M0vxBKG6v2NVORLsx2",
+      "nome": "Will Turner",
+      "id": 6
+    },
+    {
+      "email": "swann@caraibi.com",
+      "password": "$2a$10$uELmSUxO3YhINjg3cy.dnu1FL2US7Pp5a.qmlGiBw3IUEra0vy28u",
+      "nome": "Elizabeth Swann",
+      "id": 7
+    }
+  ],
+  "movies": [
+    {
+      "title": "Schindler's List",
+      "year": 1993,
+      "genre": "Biography",
+      "time": "3h 15m",
+      "coverImage": "https://image.tmdb.org/t/p/original/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "director": "Steven Spielberg",
+      "id": 1
+    },
+    {
+      "title": "Braveheart",
+      "year": 1995,
+      "genre": "Drama",
+      "time": "2h 57m",
+      "coverImage": "https://image.tmdb.org/t/p/original/or1gBugydmjToAEq7OZY0owwFk.jpg",
+      "director": "Mel Gibson",
+      "id": 2
+    },
+    {
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": "Action",
+      "time": "2h 35m",
+      "coverImage": "https://image.tmdb.org/t/p/original/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "director": "Ridley Scott",
+      "id": 3
+    },
+    {
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "genre": "Biography",
+      "time": "2h 15m",
+      "coverImage": "https://image.tmdb.org/t/p/original/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
+      "director": "Ron Howard",
+      "id": 4
+    },
+    {
+      "title": "The Departed",
+      "year": 2006,
+      "genre": "Crime",
+      "time": "2h 31m",
+      "coverImage": "https://image.tmdb.org/t/p/original/jyAgiqVSx5fl0NNj7WoGGKweXrL.jpg",
+      "director": "Martin Scorsese",
+      "id": 5
+    },
+    {
+      "title": "The Green Mile",
+      "year": 1999,
+      "genre": "Fantasy",
+      "time": "3h 9m",
+      "coverImage": "https://image.tmdb.org/t/p/original/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+      "director": "Frank Darabont",
+      "id": 6
+    },
+    {
+      "title": "The Revenant",
+      "year": 2015,
+      "genre": "Adventure",
+      "time": "2h 36m",
+      "coverImage": "https://m.media-amazon.com/images/I/71c05lTE03L._AC_SY679_.jpg",
+      "director": "Alejandro G. Iñárritu",
+      "id": 7
+    },
+    {
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "genre": "Drama",
+      "time": "1h 57m",
+      "coverImage": "https://image.tmdb.org/t/p/original/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+      "director": "Gabriele Muccino",
+      "id": 8
+    },
+    {
+      "title": "12 Years a Slave",
+      "year": 2013,
+      "genre": "Biography",
+      "time": "2h 14m",
+      "coverImage": "https://image.tmdb.org/t/p/original/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+      "director": "Steve McQueen",
+      "id": 9
+    },
+    {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "genre": "Drama",
+      "time": "2h 6m",
+      "coverImage": "https://image.tmdb.org/t/p/original/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+      "director": "Gus Van Sant",
+      "id": 10
+    },
+    {
+      "title": "The Imitation Game",
+      "year": 2014,
+      "genre": "Biography",
+      "time": "1h 53m",
+      "coverImage": "https://image.tmdb.org/t/p/original/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
+      "director": "Morten Tyldum",
+      "id": 11
+    },
+    {
+      "title": "Django Unchained",
+      "year": 2012,
+      "genre": "Western",
+      "time": "2h 45m",
+      "coverImage": "https://image.tmdb.org/t/p/original/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+      "director": "Quentin Tarantino",
+      "id": 12
+    },
+    {
+      "title": "Dunkirk",
+      "year": 2017,
+      "genre": "War",
+      "time": "1h 47m",
+      "coverImage": "https://image.tmdb.org/t/p/original/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg",
+      "director": "Christopher Nolan",
+      "id": 13
+    },
+    {
+      "title": "1917",
+      "year": 2019,
+      "genre": "War",
+      "time": "1h 59m",
+      "coverImage": "https://image.tmdb.org/t/p/original/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+      "director": "Sam Mendes",
+      "id": 14
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "year": 2018,
+      "genre": "Biography",
+      "time": "2h 14m",
+      "coverImage": "https://image.tmdb.org/t/p/original/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+      "director": "Bryan Singer",
+      "id": 15
+    },
+    {
+      "title": "A Star is Born",
+      "year": 2018,
+      "genre": "Drama",
+      "time": "2h 16m",
+      "coverImage": "https://image.tmdb.org/t/p/original/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+      "director": "Bradley Cooper",
+      "id": 16
+    },
+    {
+      "title": "Black Panther",
+      "year": 2018,
+      "genre": "Action",
+      "time": "2h 14m",
+      "coverImage": "https://image.tmdb.org/t/p/original/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+      "director": "Ryan Coogler",
+      "id": 17
+    },
+    {
+      "title": "Logan",
+      "year": 2017,
+      "genre": "Action",
+      "time": "2h 17m",
+      "coverImage": "https://image.tmdb.org/t/p/original/gGBu0hKw9BGddG8RkRAMX7B6NDB.jpg",
+      "director": "James Mangold",
+      "id": 18
+    },
+    {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genre": "Sci-Fi",
+      "time": "2h 44m",
+      "coverImage": "https://image.tmdb.org/t/p/original/aMpyrCizvSdc0UIMblJ1srVgAEF.jpg",
+      "director": "Denis Villeneuve",
+      "id": 19
+    },
+    {
+      "title": "The Imitation Game",
+      "year": 2014,
+      "genre": "Biography",
+      "time": "1h 53m",
+      "coverImage": "https://image.tmdb.org/t/p/original/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
+      "director": "Morten Tyldum",
+      "id": 20
+    },
+    {
+      "title": "The Shape of Water",
+      "year": 2017,
+      "genre": "Fantasy",
+      "time": "2h 3m",
+      "coverImage": "https://image.tmdb.org/t/p/original/k4FwHlMhuRR5BISY2Gm2QZHlH5Q.jpg",
+      "director": "Guillermo del Toro",
+      "id": 21
+    },
+    {
+      "title": "Joker",
+      "year": 2019,
+      "genre": "Crime",
+      "time": "2h 2m",
+      "coverImage": "https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "director": "Todd Phillips",
+      "id": 22
+    },
+    {
+      "title": "Ford v Ferrari",
+      "year": 2019,
+      "genre": "Action",
+      "time": "2h 32m",
+      "coverImage": "https://image.tmdb.org/t/p/original/6ApDtO7xaWAfPqfi2IARXIzj8QS.jpg",
+      "director": "James Mangold",
+      "id": 23
+    },
+    {
+      "title": "Jojo Rabbit",
+      "year": 2019,
+      "genre": "Comedy",
+      "time": "1h 48m",
+      "coverImage": "https://image.tmdb.org/t/p/original/7GsM4mtM0worCtIVeiQt28HieeN.jpg",
+      "director": "Taika Waititi",
+      "id": 24
+    },
+    {
+      "title": "Little Women",
+      "year": 2019,
+      "genre": "Drama",
+      "time": "2h 15m",
+      "coverImage": "https://image.tmdb.org/t/p/original/mSmiB8XjUnR1GSIljuCPGsk0cwX.jpg",
+      "director": "Greta Gerwig",
+      "id": 25
+    },
+    {
+      "title": "Once Upon a Time in Hollywood",
+      "year": 2019,
+      "genre": "Drama",
+      "time": "2h 41m",
+      "coverImage": "https://image.tmdb.org/t/p/original/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+      "director": "Quentin Tarantino",
+      "id": 26
+    },
+    {
+      "title": "Marriage Story",
+      "year": 2019,
+      "genre": "Drama",
+      "time": "2h 16m",
+      "coverImage": "https://image.tmdb.org/t/p/original/pZekG6xabTmZxjmYw10wN84Hp8d.jpg",
+      "director": "Noah Baumbach",
+      "id": 27
+    },
+    {
+      "title": "A Quiet Place",
+      "year": 2018,
+      "genre": "Horror",
+      "time": "1h 30m",
+      "coverImage": "https://image.tmdb.org/t/p/original/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+      "director": "John Krasinski",
+      "id": 28
+    },
+    {
+      "title": "1917",
+      "year": 2019,
+      "genre": "War",
+      "time": "1h 59m",
+      "coverImage": "https://image.tmdb.org/t/p/original/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+      "director": "Sam Mendes",
+      "id": 29
+    },
+    {
+      "title": "Knives Out",
+      "year": 2019,
+      "genre": "Crime",
+      "time": "2h 10m",
+      "coverImage": "https://image.tmdb.org/t/p/original/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "director": "Rian Johnson",
+      "id": 30
+    }
+  ],
+  "favorites": []
+}
